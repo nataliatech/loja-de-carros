@@ -10,10 +10,14 @@ public class Programa {
 		String modelo = scanner.next();
 		System.out.println("Digite um ano de fabricacao");
 		String anoFabricacao = scanner.next();
+		if (modelo.equals("BMW")) {
+			System.out.println("\nO veiculo placa " + placa
+									+ " modelo " + modelo
+									+ " ano " + anoFabricacao +
+									" foi cadastrado");
+		} else {
+			System.out.println("\nNão pode ser cadastrado");
+		}
 
-		System.out.println("O veiculo placa " + placa
-								+ " modelo " + modelo
-								+ " ano " + anoFabricacao +
-								" foi cadastrado";
 	}
 }
