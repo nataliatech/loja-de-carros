@@ -10,7 +10,7 @@ public class Programa {
 		String modelo = scanner.next();
 		System.out.println("Digite um ano de fabricacao");
 		String anoFabricacao = scanner.next();
-		if (modelo.equals("BMW")) {
+		if (modelo.equals("BMW") || modelo.equals("MERCEDEZ")) {
 			System.out.println("\nO veiculo placa " + placa
 									+ " modelo " + modelo
 									+ " ano " + anoFabricacao +
